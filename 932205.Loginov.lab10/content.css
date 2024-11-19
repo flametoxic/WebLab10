@@ -1,0 +1,131 @@
+body{
+	background-color:black;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+}
+#curtain{
+	z-index:100;
+	position:absolute;
+	bottom:0px;
+	transition-property: bottom;
+    transition-duration: 0.2s;
+}
+.elem_align{
+	
+	display: flex;
+    justify-content: center;
+	
+}
+.lamp_align{
+	position:relative;
+	top:80px;
+	display: flex;
+    justify-content: center;
+}
+.witch_align{
+	position:relative;
+	top:475px;
+	display: flex;
+    justify-content: center;
+	
+}
+#lamp{
+	z-index:50;
+	position:absolute;
+	width:87px;
+	height:237px;
+}
+#lamp_head{
+	position:relative;
+	right:-37px;
+	z-index:70;
+	width:87px;
+	height:48px;
+}
+#black_line{
+	position:relative;
+	width:80px;
+	height:80px;	
+	background-color:black;
+	z-index:69;
+	bottom:80px;
+	right:45px;
+}
+#black_box{
+	position:absolute;
+	width:87px;
+	height:237px;
+	background-color:green;
+	z-index:90;
+	opacity:0;
+}
+#lamp_switch{	
+	position:relative;
+	left:60px;
+	top:25px;
+	z-index:60;
+	width:7px;
+	height:53px;
+	transition-property: top;
+    transition-duration: 0.1s;
+}
+#triangle{
+	position:absolute;
+	top:55px;
+	width:0px;
+	height:0px;
+	border-left:350px solid transparent;
+	border-right:350px solid transparent;
+	border-bottom:700px solid black;
+	z-index:40;
+	opacity:1;
+	transition-property: opacity,border-bottom-color,z-index;
+    transition-duration: 0.2s;
+}
+#witch{
+	position:relative;
+	left:50px;
+	width:200px;
+	height:180px;
+	z-index:30;
+}
+#check_box{
+	position:relative;
+	left:420px;
+	top:-90px;
+	width:87px;
+	height:100px;
+	background-color:green;
+	z-index:90;
+	opacity:0;
+}
+#rabbit{
+	position:relative;
+	left:140px;
+	top:-90px;
+	width:67px;
+	height:96px;
+	z-index:6;
+	transition-property: top;
+    transition-duration: 0.5s;
+}
+#bird{
+	position:relative;
+	left:60px;
+	top:50px;
+	width:96px;
+	height:90px;
+	z-index:5;
+	transition-property: top;
+    transition-duration: 0.5s;
+}
+#hat{
+	position:relative;
+	transform: rotate(180deg);
+	right:75px;
+	top:30px;
+	width:175px;
+	height:130px;
+	z-index:20;
+}
